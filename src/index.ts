@@ -1,5 +1,7 @@
+import Dispatcher from "./dispatcher";
 import Tool from "./services/tool";
 
+const dispatcher = new Dispatcher();
 const tool = new Tool();
 tool.eventHandlers["getTools"]("atmelice", 1);
 
