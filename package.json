@@ -1,0 +1,34 @@
+{
+  "name": "tcf",
+  "version": "0.0.1",
+  "description": "TCF Protocol in Typescript",
+  "main": "index.js",
+  "scripts": {
+    "launch": "node ./out/index.js",
+    "watch": "tsc --watch",
+    "test": "mocha ./out/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nokrux/TCF.git"
+  },
+  "keywords": [
+    "tcf",
+    "protocol",
+    "embedded",
+    "atmel"
+  ],
+  "author": "ju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nokrux/TCF/issues"
+  },
+  "homepage": "https://github.com/nokrux/TCF#readme",
+  "devDependencies": {
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^14.14.37",
+    "mocha": "^8.3.2",
+    "tslint": "^6.1.3",
+    "typescript": "^4.2.4"
+  }
+}
