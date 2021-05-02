@@ -1,6 +1,5 @@
-import IHandlers from "./handlers";
-
-interface IEventHandlers extends IHandlers{
+interface IEventHandlers{
+    [event:string]: (...args:any[])=>void;
 }
 
 export default IEventHandlers;

@@ -1,9 +1,9 @@
-import IEventHandlers from "./iEvents";
-
 interface IService{
-    name: string
-    eventHandlers: IEventHandlers
-    commands: ICommands 
+    [event:string]: (...args: any[])=> void;
+}
+
+export interface ServiceConstructor{
+    new (): IService
 }
 
 export default IService;
